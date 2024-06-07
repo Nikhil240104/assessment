@@ -70,7 +70,16 @@
     margin-bottom: 20px;
   }
   
-  .links1 {
+  .links{
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 0;
+    text-align: center;
+  }.links1 {
     width: 100%;
     display: flex;
     gap: 15px;
