@@ -1,0 +1,118 @@
+.top {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+  }
+  
+  .top h2 {
+    width: 100%;
+    max-width: 845px;
+    padding: 10px 10px;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    width: 100%;
+    flex-wrap: wrap;
+    height: fit-content;
+  }
+  
+  .stat {
+    display: inline-flex;
+    align-items: center;
+    justify-self: center;
+  }
+  
+  .Symbol {
+    height: 50px;
+    font-size: 2rem;
+    color: aqua;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .stats h1 {
+    text-align: center;
+    display: inline;
+    padding: 0px;
+    margin: 0px;
+    color: blue;
+  }
+  
+  .stat1, .stat2, .stat3, .stat4 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    margin: 10px;
+    height: 50px;
+  }
+  
+  .stat-text {
+    color: aqua;
+    line-height: 1.2rem;
+    font-size: 1em;
+  }
+  
+  /* Mobile responsive styles */
+  @media (max-width: 768px) {
+    .stats {
+      gap: 40px;
+    }
+    
+    .stat {
+      flex-direction: row;
+    }
+  
+    .Symbol {
+      font-size: 1.5rem;
+    }
+  
+    .stats h1 {
+      font-size: 1.5rem;
+    }
+  
+    .stat-text {
+      font-size: 0.9em;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .top {
+      padding: 10px;
+    }
+  
+    .top h2 {
+      font-size: 1.2em;
+    }
+  
+    .stats {
+      gap: 20px;
+      flex-direction: column;
+    }
+  
+    .stat {
+      align-items: center;
+    }
+  
+    .Symbol {
+      font-size: 1.2rem;
+      height: auto;
+    }
+  
+    .stats h1 {
+      font-size: 1.2rem;
+    }
+  
+    .stat-text {
+      font-size: 0.8em;
+    }
+  }
+  

@@ -1,0 +1,146 @@
+.catalogue-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: stretch;
+  }
+  
+  .c-header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+  }
+  
+  .c-headerM {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .c-header p {
+    color: #38B4E7;
+  }
+  
+  .para {
+    letter-spacing: 0.2em;
+    border: 1px solid rgba(132, 197, 197, 0.443);
+    display: inline;
+    border-radius: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: large;
+    background-color: rgba(63, 136, 136, 0.265);
+  }
+  
+  .c-header h2 {
+    color: #333399;
+  }
+  
+  .fa-left, .fa-right {
+    font-size: 50px;
+    color: black;
+    background-color: none;
+  }
+  
+  .main-catalogue {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .main-card1 {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    border-radius: 12px;
+  }
+  
+  .main-card1 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+  }
+  
+  .main-card1 p {
+    position: absolute;
+    bottom: 20px;
+    color: white;
+    margin-left: 40px;
+    font-size: large;
+  }
+  
+  .main-card1 .foot-card {
+    position: absolute;
+    bottom: 5px;
+    color: white;
+    left: 40px;
+  }
+  
+  .fa-bottom {
+    color: aqua;
+    background-color: white;
+    border-radius: 50%;
+  }
+  
+  /* Mobile responsive styles */
+  @media (max-width: 768px) {
+    .c-header {
+      padding: 20px 40px;
+    }
+  
+    .fa-left, .fa-right {
+      font-size: 40px;
+    }
+  
+    .main-card1 {
+      width: 250px;
+      height: 350px;
+    }
+  
+    .main-card1 p {
+      margin-left: 20px;
+      font-size: medium;
+    }
+  
+    .main-card1 .foot-card {
+      left: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .c-header {
+      padding: 20px 20px;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .fa-left, .fa-right {
+      display: none;
+    }
+  
+    .main-catalogue {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .main-card1 {
+      width: 100%;
+      height: auto;
+      margin: 10px 0;
+    }
+  
+    .main-card1 p, .main-card1 .foot-card {
+      left: 10px;
+    }
+  
+    .main-card1 p {
+      margin-left: 10px;
+      font-size: medium;
+    }
+  }
+  

@@ -1,0 +1,102 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+    margin: 0px;
+    height: auto;
+    width: 100%;
+    border: 1px 0px 0px 0px;
+
+  }
+  
+  .logo img {
+    height: 44px;
+    width: 169px;
+  }
+  
+  .nav {
+    gap: 32px;
+  }
+  
+  .nav ul {
+    color: #333399;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+    font-family: IBM Plex Sans;
+    font-size: 1.1em;
+    font-weight: 1000;
+    text-align: center;
+  }
+  
+  .nav li:hover {
+    color: #38B4E7;
+  }
+  
+  .contact-btn {
+    gap: 0px;
+    opacity: 1; /* Set to 1 to make it visible */
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    width: 133px;
+    height: 44px;
+    background-color: #333399;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 15px 25px;
+  }
+  
+  /* Mobile responsive styles */
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      height: auto;
+      padding: 10px 20px;
+    }
+  
+    .nav {
+      width: 100%;
+      margin-top: 10px;
+    }
+  
+    .nav ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .contact-btn {
+      margin-top: 10px;
+      width: fit-content;
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    header {
+      padding: 10px;
+      height: fit-content;
+    }
+  
+    .logo img {
+      height: 30px;
+      width: auto;
+    }
+  
+    .nav ul {
+      font-size: 1em;
+      gap: 5px;
+    }
+  
+    .contact-btn {
+      font-size: 14px;
+      height: 40px;
+      width: fit-content;
+    }
+  }
+  
