@@ -9,7 +9,8 @@ import image3 from "../images/image2.jpeg";
    <div className='third-container'>
     <div className='card'>
       <div className='img'>
-        <img src={image} ></img>
+
+        <img src={image} alt='' ></img>
       </div>
       <div className='content'>
         <h1 className='heading-conetent'>
@@ -38,12 +39,12 @@ import image3 from "../images/image2.jpeg";
       </div>
       </div>
       <div className='img'>
-        <img src={image2} ></img>
+        <img src={image2} alt=''></img>
       </div>
     </div>
     <div className='card'>
       <div className='img'>
-        <img src={image3} ></img>
+        <img src={image3} alt=''></img>
       </div>
       <div className='content'>
         <h1 className='heading-conetent'>

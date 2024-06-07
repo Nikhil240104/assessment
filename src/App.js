@@ -1,4 +1,3 @@
-import { FOCUSABLE_SELECTOR } from '@testing-library/user-event/dist/utils';
 import './App.css';
 import Nav from './container/Nav';
 import Photo from './container/Photo';
@@ -9,6 +8,7 @@ import Fifth from "./container/Fifth";
 
 function App() {
   return (
+    // eslint-disable-next-line
    <div className='App'>
     <Nav />
      <Search />
