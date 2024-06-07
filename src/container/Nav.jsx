@@ -5,7 +5,7 @@ import logo from "../images/logo.png"
 function Nav() {
   return (
     <header className="header">
-        <div className="logo"><img src={logo}/></div>
+        <div className="logo"><img src={logo} alt=''/></div>
         <div className="nav">
           <ul >
             <li>Home</li>
